@@ -1,0 +1,29 @@
+.cadastro {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.cadastro button {
+    width: 210px;
+    height: 30px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary);
+    border: 0;
+    border-radius: 50px;
+    transition: 200ms;
+}
+
+.cadastro strong {
+    font-weight: normal;
+    color: #FFF;
+    display: block;
+}
+
+.cadastro button:hover {
+    opacity: 0.8;
+    background: #36A1AB
+}
